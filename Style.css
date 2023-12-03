@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e2ecfe, #e6dbfa);
+    /* background-size: cover; */
+    /* background-image: url("image/image17.jpg");   */
+    /* background-attachment: scroll; */
+    /* justify-content: center; */
+    /* background-color: #ffffff; */
+}
+
+.logo img {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 150px;
+    height: 100px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 35px;
+    color: #4f0099;
+    font-weight: 400;
+    padding-right: -140px;
+}
+
+.form-continer {
+    /* max-width: 400px; */
+    width: 50%;
+    background: linear-gradient(-10deg, #b5b7ec, #bbcff0);
+    justify-content: center;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.form-continer .form .user-detailes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.form-continer .user-detailes .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-detailes .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-detailes .input-box input {
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-detailes .input-box input:valid {
+    border-color: #b009de;
+}
+
+
+/* button */
+form .button {
+    height: 45px;
+    margin: 20px 0;
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #5586e3, #a33ee7);
+    border: none;
+    border-radius: 5px;
+    color: #eff0f8;
+}
+
+form .button input:hover {
+    background: linear-gradient(-135deg, #5586e3, #a33ee7);
+}
